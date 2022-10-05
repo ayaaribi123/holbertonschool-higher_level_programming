@@ -13,4 +13,5 @@ if __name__ == "__main__":
     except FileNotFoundError:
         new = []
 
+"""add argument and save them in a file"""
 save_to_json_file(new + sys.argv[1:], filename)
