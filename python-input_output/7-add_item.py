@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Add arguments to list and save them"""
+"""add argument to list and save them"""
 
 import sys
 
