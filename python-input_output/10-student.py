@@ -19,8 +19,6 @@ class Student:
         else:
             new = {}
         for n in attrs:
-            if type(n) is not str:
-                return self.__dict__
             if n in self.__dict__:
                 new[n] = self.__dict__[n]
                 return new
