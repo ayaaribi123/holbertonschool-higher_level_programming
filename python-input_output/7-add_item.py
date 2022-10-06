@@ -17,4 +17,4 @@ try:
 except FileNotFoundError:
     new = []
 
-save_to_json_file(new + sys.argv[1:], filename)
+save_to_json_file(new + argv[1:], filename)
