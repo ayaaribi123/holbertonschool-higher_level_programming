@@ -21,4 +21,4 @@ class Student:
         for n in attrs:
             if n in self.__dict__:
                 new[n] = self.__dict__[n]
-                return new
+        return new
