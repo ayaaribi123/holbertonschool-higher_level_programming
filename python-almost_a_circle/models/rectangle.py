@@ -21,9 +21,19 @@ def width(self):
     return self.__width
 
 
+@width.setter
+def width(self):
+    self.__width
+
+
 @property
 def height(self):
     return self.__height
+
+
+@height.setter
+def haight(self):
+    self.__height
 
 
 @property
@@ -31,6 +41,16 @@ def x(self):
     return self.__x
 
 
+@x.setter
+def x(self):
+    self.__x
+
+
 @property
 def y(self):
     return self.__y
+
+
+@y.setter
+def y(self):
+    self.__y
