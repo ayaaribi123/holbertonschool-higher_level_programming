@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""class Base"""
+"""class rectangle"""
 
 from models.base import Base
 
 
 class Rectangle(Base):
 
-    """class base"""
+    """class rectangle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         id = super().__init__(id)
