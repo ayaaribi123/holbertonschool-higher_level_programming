@@ -90,3 +90,17 @@ class Rectangle(Base):
             for c in range(self.__width):
                 print("#", end="")
             print()
+
+    def update(self, *args):
+        """update"""
+        for i in range(len(args)):
+            if i == 0:
+                self.id = args[0]
+            if i == 1:
+                self.width = args[1]
+            if i == 2:
+                self.height = args[2]
+            if i == 3:
+                self.x = args[3]
+            if i == 4:
+                self.y = args[4]
