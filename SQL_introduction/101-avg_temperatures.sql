@@ -1,5 +1,5 @@
 -- displays the average temperature
-SELECT city, AVG(value) as hbtn_0c_0.temperature
+SELECT city, AVG(value) as temperature
 FROM temperature
 GROUP BY city
 ORDER BY temperature DESC
