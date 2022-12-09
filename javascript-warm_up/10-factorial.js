@@ -1,12 +1,14 @@
 #!/usr/bin/node
-function factorial (x) {
-  if (isNaN(x)) {
+
+function factorial (n) {
+  if (isNaN(n)) {
     return 1;
-  } else if (x === 0) {
+  } else if (n === 0) {
     return 1;
   } else {
-    return x * factorial(x - 1);
+    return n * factorial(n - 1);
   }
 }
-const x = parseInt(process.argv[2]);
-console.log(factorial(x));
+
+const n = parseInt(process.argv[2]);
+console.log(factorial(n))
