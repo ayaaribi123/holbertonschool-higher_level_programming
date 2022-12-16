@@ -10,7 +10,7 @@ request.get(url, function (err, resualt, body) {
       if (content in completed === undefined) {
         if (completed[i.userId] === undefined) {
           completed[i.userId] = 1;
-        } else if (completed in completed) {
+        } else if (content in completed) {
           completed[i.userId] = completed[i.userId] + 1;
         }
       }
