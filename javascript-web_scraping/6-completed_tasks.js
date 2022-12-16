@@ -11,7 +11,7 @@ request.get(url, function (err, resualt, body) {
         if (completed[i.userId] === undefined) {
           completed[i.userId] = 1;
         } else {
-          completed[i.userId] = completed[i.userId] + 1;;
+          completed[i.userId] = completed[i.userId] + 1;
         }
       }
     }
