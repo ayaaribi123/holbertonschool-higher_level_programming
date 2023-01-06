@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function factorial (n) {
+function factorial(n) {
 	if (process.argv.length === 2) return 1;
 	const mem = [];
 	if (n === 0 || n === 1) { return 1; }
